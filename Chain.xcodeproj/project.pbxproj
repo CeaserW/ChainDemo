@@ -13,6 +13,7 @@
 		7BCA660C1D33499A001DA8C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCA660A1D33499A001DA8C0 /* Main.storyboard */; };
 		7BCA660E1D33499A001DA8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCA660D1D33499A001DA8C0 /* Assets.xcassets */; };
 		7BCA66111D33499A001DA8C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCA660F1D33499A001DA8C0 /* LaunchScreen.storyboard */; };
+		7BCA661D1D334F68001DA8C0 /* UIButton+Chian.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCA661C1D334F68001DA8C0 /* UIButton+Chian.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7BCA660D1D33499A001DA8C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BCA66101D33499A001DA8C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BCA66121D33499A001DA8C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCA661B1D334F68001DA8C0 /* UIButton+Chian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Chian.h"; sourceTree = "<group>"; };
+		7BCA661C1D334F68001DA8C0 /* UIButton+Chian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Chian.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				7BCA660F1D33499A001DA8C0 /* LaunchScreen.storyboard */,
 				7BCA66121D33499A001DA8C0 /* Info.plist */,
 				7BCA66011D33499A001DA8C0 /* Supporting Files */,
+				7BCA661B1D334F68001DA8C0 /* UIButton+Chian.h */,
+				7BCA661C1D334F68001DA8C0 /* UIButton+Chian.m */,
 			);
 			path = Chain;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				7BCA66091D33499A001DA8C0 /* ViewController.m in Sources */,
 				7BCA66061D33499A001DA8C0 /* AppDelegate.m in Sources */,
 				7BCA66031D33499A001DA8C0 /* main.m in Sources */,
+				7BCA661D1D334F68001DA8C0 /* UIButton+Chian.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				7BCA66171D33499A001DA8C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

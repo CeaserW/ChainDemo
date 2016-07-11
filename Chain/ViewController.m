@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "UIButton+Chian.h"
 @interface ViewController ()
 
 @end
@@ -16,9 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    button.c_backGroundColor([UIColor grayColor])
+          .c_frame(CGRectMake(0, 0, 100, 100))
+          .c_titleColorWithControlState([UIColor redColor],nil)
+          .c_addTarget(self,@selector(nslog),UIControlEventTouchUpInside);
+    
+    
+    
+    [self.view addSubview:button];
 }
-
+- (void)nslog
+{
+    NSLog(@"click the button");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
